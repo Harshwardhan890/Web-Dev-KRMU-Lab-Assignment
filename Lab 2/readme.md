@@ -24,4 +24,4 @@ For Header:-              For main: -
                             18. <input>
                             19. <textarea>
 
-The purpose to make this website is to learn HTML and make a portfolio website and test our knowledge about HTML.
+The purpose to make this website is to learn HTML and make a portfolio website and test our knowledge about HTML..

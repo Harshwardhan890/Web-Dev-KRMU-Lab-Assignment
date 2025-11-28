@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Harshwardhan's vehicle repairing services</title>
+  <!-- Google Fonts for modern look -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="logo">Repairooo</div>
+     <div class="menu-icon">☰</div> <!-- This is the hamburger menu -->
+    <nav>
+      <a href="#categories">Categories</a>
+      <a href="#promos">Offers</a>
+      <a href="#Reviews">Reviews</a>
+      <a href="#download">App</a>
+    </nav>
+    <div class="auth-buttons">
+      <button class="btn login">Login</button>
+      <button class="btn signup">Sign Up</button>
+    </div>
+  </header>
+
+  <!-- Hero Banner -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Any vehicle emergency will be solved with one click</h1>
+      <p>Broken vehicle engine failed? Tyre repair? want to learn how to drive no worries you can get all of that just one click away!</p>
+      <button class="cta-btn">Order Now</button>
+    </div>
+    <div class="hero-image">
+      <!-- Placeholder Vehicles we serve, replace src with your own if needed -->
+      <img src="https://t3.ftcdn.net/jpg/05/08/21/24/360_F_508212490_bWeT4V6QY4aiZ6TscNaP3wNy3xBwcL7K.jpg" alt="Every vehicle we fix">
+    </div>
+  </section>
+
+  <!-- Search Bar -->
+  <form class="search-bar" autocomplete="off">
+    <!-- Location input -->
+    <input type="text" placeholder="Enter your location" aria-label="Location">
+    <!-- Vehicle category filter -->
+    <select aria-label="Food Category">
+      <option value="">All Vehicles we fix</option>
+      <option>Car</option>
+      <option>Motorbikes</option>
+      <option>Buses</option>
+      <option>trucks</option>
+      <option>JCB's</option>
+      <option>Boats</option>
+    </select>
+    <!-- Search button -->
+    <button type="submit">Search</button>
+  </form>
+
+  <!-- Category Grid -->
+  <section class="categories" id="categories">
+    <h2>Browse by Category</h2>
+    <div class="category-grid">
+      <!-- Each category card -->
+      <div class="category-card">
+        <img src="https://www.shutterstock.com/image-vector/car-breakdown-on-road-emitting-600nw-2397710339.jpg" alt="Car">
+        <span>Car</span>
+      </div>
+      <div class="category-card">
+        <img src="https://i.pinimg.com/736x/40/8b/b0/408bb09524965d3fae10dcbe9f7168f1.jpg" alt="Motorbikes">
+        <span>Motorbikes</span>
+      </div>
+      <div class="category-card">
+        <img src="https://i.pinimg.com/736x/17/00/a6/1700a6ff98f4ec013f3dd591ecacd788.jpg" alt="Buses">
+        <span>Buses</span>
+      </div>
+      <div class="category-card">
+        <img src="https://i.pinimg.com/1200x/ca/82/3e/ca823e058f5be67bdd283adf48a78d03.jpg" alt="Trucks">
+        <span>Trucks</span>
+      </div>
+      <div class="category-card">
+        <img src="https://png.pngtree.com/png-clipart/20200701/original/pngtree-colored-jcb-machine-vector-png-image_5439386.jpg" alt="JCB">
+        <span>JCB</span>
+      </div>
+      <div class="category-card">
+        <img src="https://png.pngtree.com/png-vector/20240204/ourmid/pngtree-cartoon-boat-or-toy-ship-png-image_11608022.png" alt="Boats">
+        <span>Boats</span>
+      </div>
+    </div>
+  </section>
+<!-- Promo Offers -->
+  <section class="promos" id="promos">
+    <h2>Promo Offers</h2>
+    <div class="promo-banners">
+      <div class="promo-banner">
+        <span class="icon">🎉</span>
+        <span class="promo-text">Get 50% OFF upto 2000rs on your first order!</span>
+      </div>
+      <div class="promo-banner">
+        <span class="icon">🚚</span>
+        <span class="promo-text">Free truck oil change</span>
+      </div>
+      <div class="promo-banner">
+        <span class="icon">🚘</span>
+        <span class="promo-text">Tyre preasure check for free</span>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reviews -->
+  <section class="Reviews" id="Reviews">
+    <h2>What Our Customers Say</h2>
+    <div class="Review-cards">
+      <div class="Review-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8CU50zIkBp_6DyL7aXwJECvYinaTNgilccA&s" alt="Customer 1">
+        <div class="stars">★★★★★</div>
+        <p>"Solved my Bike issue in less than 2 hours highly recommended."</p>
+        <div class="name">Aasman singh.</div>
+      </div>
+      <div class="Review-card">
+        <img src="https://i.pinimg.com/564x/7b/12/2b/7b122bfb0391eea8a55c6b331471b7db.jpg" alt="Customer 2">
+        <div class="stars">★★★★★</div>
+        <p>"My car broke down in the middle of the road and used the app mechanic was available at my location in less than 30 minutes."</p>
+        <div class="name">Anushka.</div>
+      </div>
+      <div class="Review-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTc05bI4GvZzPBrNJK-6RcIhnf26uNkvnJSug&s" alt="Customer 3">
+        <div class="stars">★★★</div>
+        <p>"app requires some UI fixes else everything is so good "</p>
+        <div class="name">Harshwardhan.</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- App Download Section -->
+  <section class="app-download" id="download">
+    <div class="app-download-content">
+      <h2>Get the repairooo App</h2>
+      <p>Get your vehicle repaired fixed or serviced at home.</p>
+      <div class="store-buttons">
+        <!-- Play Store and App Store icons -->
+        <a href="#"><img src="https://img.icons8.com/color/144/000000/google-play.png" alt="Google Play"></a>
+        <a href="#"><img src="https://img.icons8.com/ios-filled/144/000000/mac-os.png" alt="App Store"></a>
+      </div>
+    </div>
+    <div class="app-download-image">
+      <!-- Placeholder phone image -->
+      <img src="https://img.icons8.com/ios-filled/100/ff4d4f/iphone.png" alt="App Preview">
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="footer-grid">
+      <div class="footer-col">
+        <h4>States Served</h4>
+        <ul>
+          <li>New delhi</li>
+          <li>Punjab</li>
+          <li>Haryana</li>
+          <li>Goa</li>
+          <li>Sikkim</li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Contact</h4>
+        <ul>
+          <li>Email: <a href="mailto:support@repairooo.com">support@Repairooo.com</a></li>
+          <li>Phone: <a href="tel:+918928928289">+91 8928928289</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <div class="footer-social">
+          <a href="#" aria-label="Facebook"><span>🌐</span></a>
+          <a href="#" aria-label="Twitter"><span>🐦</span></a>
+          <a href="#" aria-label="Instagram"><span>📸</span></a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; 2025 Repairooo. All rights reserved.
+    </div>
+  </footer>
+</body>
+</html></div>
